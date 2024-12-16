@@ -1,0 +1,116 @@
+/*  login page */
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+  
+  /* Wrapper for the form */
+  .form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Main form container styling */
+  .login-form, .signup-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Logo style */
+  .tata--cliqLogo-user {
+    width: 150px;
+    height: 55px;
+    margin: 20px auto;
+    background: url("https://www.tatacliq.com/src/mobile-number-login/images/TCF_logo_black.svg") no-repeat center;
+    background-size: 100% 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .tata--cliqLogo-user:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Heading style */
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Input and Button group styling */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .button-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error and success messages */
+  .message {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .success-message {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  /* Bottom text with link */
+  p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
