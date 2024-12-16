@@ -34,9 +34,10 @@ import { ProductDetail } from './Pages/ProductDetail';
 import { CartProvider } from './Cart/CartProvider';
 import { AuthProvider } from './Auth/AuthProvider';
 import { Login } from './Pages/Login';
-import { Signup } from './Pages/Signup';
+
 import { ProtectedRoute } from './ProtectedRoute';
 import { Cart } from './Pages/Cart';
+import { SignUp } from './Pages/Signup';
 
 
 
@@ -82,7 +83,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'signup',
-        element: <Signup />
+        element: <SignUp />
       },
       {
         path: 'cart',

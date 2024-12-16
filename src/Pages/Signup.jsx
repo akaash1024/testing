@@ -4,7 +4,7 @@ import { useAuth } from '../Auth/AuthProvider';
 import './css/user.css'
 
 
-export const Signup = () => {
+export const SignUp = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
