@@ -10,7 +10,7 @@ export const getMoreDetails = async ({ params }) => {
     
 
     try {
-        const res = await fetch(`http://localhost:3000/products/${id}`);
+        const res = await fetch(`https://json-server-ojru.onrender.com/products/${id}`);
         const data = res.json();
         console.log(data)
         return data;

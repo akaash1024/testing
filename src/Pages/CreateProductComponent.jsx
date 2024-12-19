@@ -19,7 +19,7 @@ export const CreateProductComponent = ({ params }) => {
     const getProduct = async () => {
         try {
             const res = await getProducts(params);
-            setProductData(res.data)
+            setProductData(res)
         } catch (error) {
             console.error("Failed to fetch products", error);
         }
@@ -64,7 +64,7 @@ export const CreateProductComponent = ({ params }) => {
     const sortProduct = async () => {
         try {
             const res = await sorting(params, sortingOption);
-            setProductData(res.data)
+            setProductData(res)
         } catch (error) {
             console.error("Failed to fetch products", error);
         }
