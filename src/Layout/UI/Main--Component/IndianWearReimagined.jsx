@@ -14,7 +14,7 @@ export const IndianWearReimagined = () => {
                 </div>
 
                 <div className="banner">
-                    <img src='/public/image/wedding_wonder.jpg' alt="" />
+                    <img src='/image/wedding_wonder.jpg' alt="" />
                 </div>
 
                 <div className="main--card">
