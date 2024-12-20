@@ -75,8 +75,9 @@ export const Login = () => {
                         </div>
                     </form>
                     <p>
-                        Don't have an account? <a href="/signup">Sign Up</a>
+                        Don't have an account? <NavLink to="/signup">Sign Up</NavLink>
                     </p>
+
                 </div>
             </div>
         </div>

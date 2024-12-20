@@ -89,7 +89,7 @@ export const SignUp = () => {
                         </div>
 
                         <p>
-                            Already have an account? <a href="/login">Login</a>
+                            Already have an account? <NavLink to="/login">Login</NavLink>
                         </p>
                     </form>
                 </div>
